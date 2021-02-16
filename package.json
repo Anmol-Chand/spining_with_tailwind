@@ -1,0 +1,29 @@
+{
+    "name": "tailwind_css",
+    "version": "1.0.0",
+    "description": "Website using tailwind",
+    "main": "index.js",
+    "scripts": {
+        "build:css": "postcss ./src/styles.css -o ./public/main.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Anmol-Chand/spining_with_tailwind.git"
+    },
+    "keywords": [
+        "tailwind"
+    ],
+    "author": "Anmol",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Anmol-Chand/spining_with_tailwind/issues"
+    },
+    "homepage": "https://github.com/Anmol-Chand/spining_with_tailwind#readme",
+    "devDependencies": {
+        "autoprefixer": "^10.2.4",
+        "postcss": "^8.2.6",
+        "postcss-cli": "^8.3.1",
+        "tailwindcss": "^2.0.3"
+    },
+    "dependencies": {}
+}
